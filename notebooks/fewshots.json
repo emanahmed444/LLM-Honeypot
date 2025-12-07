@@ -1,0 +1,7203 @@
+
+[
+ {
+  "command": "grep root \/etc\/passwd \/var\/log\/syslog",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "ip addr \/tmp\/file.txt",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "python3 script.py",
+  "response": "(no output)"
+ },
+ {
+  "command": "umount \/mnt",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "whoami .\/config.yaml",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "cat \/etc\/passwd",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "whereis gcc",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "systemctl status sshd",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "pip3 install requests",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz \/etc\/passwd",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "id \/tmp\/file.txt",
+  "response": "100%[=================================] 1.2M  1.2MB\/s  in 1s"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 \/var\/log\/syslog",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "gcc -v",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "chmod 644 file \/var\/log\/syslog",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "less \/var\/log\/auth.log",
+  "response": "100%[=================================] 1.2M  1.2MB\/s  in 1s"
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt \/tmp\/file.txt",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "locate nginx \/var\/log\/syslog",
+  "response": "(no output)"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 \/tmp\/file.txt",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "ssh user@localhost",
+  "response": "100%[=================================] 1.2M  1.2MB\/s  in 1s"
+ },
+ {
+  "command": "du -sh \/var",
+  "response": "Package 'vim' is already installed."
+ },
+ {
+  "command": "locate nginx \/tmp\/file.txt",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "grep root \/etc\/passwd \/etc\/passwd",
+  "response": "Permission denied\n"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "whereis gcc",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "ip addr",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "chown user:user file \/etc\/passwd",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "make \/home\/user\/test.txt",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "top -bn1 .\/config.yaml",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "umount \/mnt",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "top -bn1",
+  "response": "(no output)"
+ },
+ {
+  "command": "pip3 install requests \/tmp\/file.txt",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "grep root \/etc\/passwd \/home\/user\/test.txt",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "pwd",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "ls -la",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "which python3",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "virtualenv venv",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "ls -la",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "apt-get install -y vim",
+  "response": "ssh: connect to host localhost port 22: Connection refused"
+ },
+ {
+  "command": "id",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "curl -I https:\/\/example.com",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "hostname \/etc\/passwd",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "virtualenv venv",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog \/tmp\/file.txt",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "gunzip file.gz",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "netstat -tuln .\/config.yaml",
+  "response": "(no output)"
+ },
+ {
+  "command": "whoami",
+  "response": "(no output)"
+ },
+ {
+  "command": "pip3 install requests",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "top -bn1",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "du -sh \/var .\/config.yaml",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "ifconfig -a",
+  "response": "Package 'vim' is already installed."
+ },
+ {
+  "command": "make \/var\/log\/syslog",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "yum install -y httpd",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "ip addr \/tmp\/file.txt",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "rpm -qa \/etc\/passwd",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "pwd",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "ip addr \/tmp\/file.txt",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "pwd",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "locate nginx",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "top -bn1",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "docker run hello-world",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "id",
+  "response": "100%[=================================] 1.2M  1.2MB\/s  in 1s"
+ },
+ {
+  "command": "passwd testuser",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "which python3",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "id \/var\/log\/syslog",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "netstat -tuln .\/config.yaml",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "top -bn1",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager \/tmp\/file.txt",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "docker run hello-world",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "id .\/config.yaml",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "whoami",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "du -sh \/var",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "ifconfig -a",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "du -sh \/var",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "locate nginx",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "hostname \/tmp\/file.txt",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "python3 script.py",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "cd \/tmp\/testdir \/home\/user\/test.txt",
+  "response": "ssh: connect to host localhost port 22: Connection refused"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "apt-get install -y vim \/etc\/passwd",
+  "response": "(no output)"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog \/etc\/passwd",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "ps aux",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "netstat -tuln",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "less \/var\/log\/auth.log .\/config.yaml",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "yum install -y httpd \/var\/log\/syslog",
+  "response": "Package 'vim' is already installed."
+ },
+ {
+  "command": "locate nginx",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "ping -c 3 8.8.8.8",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 \/var\/log\/syslog",
+  "response": "(no output)"
+ },
+ {
+  "command": "ls -la",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "id \/etc\/passwd",
+  "response": "ssh: connect to host localhost port 22: Connection refused"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/var\/log\/syslog",
+  "response": "(no output)"
+ },
+ {
+  "command": "netstat -tuln",
+  "response": "Permission denied\n"
+ },
+ {
+  "command": "systemctl status sshd",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "less \/var\/log\/auth.log",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "yum install -y httpd .\/config.yaml",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "locate nginx \/etc\/passwd",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "ps aux",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "df -h .\/config.yaml",
+  "response": "Package 'vim' is already installed."
+ },
+ {
+  "command": "make \/var\/log\/syslog",
+  "response": "ssh: connect to host localhost port 22: Connection refused"
+ },
+ {
+  "command": "apt update \/tmp\/file.txt",
+  "response": "(no output)"
+ },
+ {
+  "command": "grep root \/etc\/passwd",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir \/etc\/passwd",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/home\/user\/test.txt",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "make",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "ps aux \/etc\/passwd",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "rpm -qa \/etc\/passwd",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "curl http:\/\/example.com",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "gzip file \/etc\/passwd",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "id",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "useradd testuser",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "netstat -tuln",
+  "response": "Permission denied\n"
+ },
+ {
+  "command": "useradd testuser \/var\/log\/syslog",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "docker run hello-world",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "ssh user@localhost \/tmp\/file.txt",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "hostname",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "gzip file \/etc\/passwd",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "cat \/etc\/passwd",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz \/tmp\/file.txt",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "gzip file",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "which python3",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/var\/log\/syslog",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "id",
+  "response": "100%[=================================] 1.2M  1.2MB\/s  in 1s"
+ },
+ {
+  "command": "gcc -v",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "chmod 644 file",
+  "response": "Package 'vim' is already installed."
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/home\/user\/test.txt",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "yum install -y httpd",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "which python3",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "hostname",
+  "response": "(no output)"
+ },
+ {
+  "command": "locate nginx",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "gcc -v",
+  "response": "ssh: connect to host localhost port 22: Connection refused"
+ },
+ {
+  "command": "curl http:\/\/example.com",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "chown user:user file",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "top -bn1 \/home\/user\/test.txt",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "python3 script.py",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt .\/config.yaml",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "curl http:\/\/example.com \/home\/user\/test.txt",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "systemctl status sshd",
+  "response": "Package 'vim' is already installed."
+ },
+ {
+  "command": "apt-get install -y vim",
+  "response": "Permission denied\n"
+ },
+ {
+  "command": "locate nginx .\/config.yaml",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "grep root \/etc\/passwd",
+  "response": "(no output)"
+ },
+ {
+  "command": "kubectl get pods",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "which python3 \/etc\/passwd",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "cat \/etc\/passwd \/home\/user\/test.txt",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "useradd testuser",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "hostname",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "apt update",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "virtualenv venv",
+  "response": "Permission denied\n"
+ },
+ {
+  "command": "docker run hello-world",
+  "response": "ssh: connect to host localhost port 22: Connection refused"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager \/etc\/passwd",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager \/home\/user\/test.txt",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "yum install -y httpd",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "less \/var\/log\/auth.log",
+  "response": "ssh: connect to host localhost port 22: Connection refused"
+ },
+ {
+  "command": "passwd testuser",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "systemctl status sshd",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "systemctl status sshd \/etc\/passwd",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "ssh user@localhost",
+  "response": "ssh: connect to host localhost port 22: Connection refused"
+ },
+ {
+  "command": "apt update",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "systemctl status sshd \/var\/log\/syslog",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "ssh user@localhost .\/config.yaml",
+  "response": "(no output)"
+ },
+ {
+  "command": "top -bn1 \/home\/user\/test.txt",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "make \/home\/user\/test.txt",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "cd \/tmp\/testdir \/home\/user\/test.txt",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "virtualenv venv",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "chmod 644 file",
+  "response": "100%[=================================] 1.2M  1.2MB\/s  in 1s"
+ },
+ {
+  "command": "curl http:\/\/example.com",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "dpkg -l",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "docker run hello-world",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "apt update \/home\/user\/test.txt",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "cat \/etc\/passwd",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "which python3",
+  "response": "Permission denied\n"
+ },
+ {
+  "command": "curl -I https:\/\/example.com",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "less \/var\/log\/auth.log",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "umount \/mnt",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "whoami",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager \/var\/log\/syslog",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt \/var\/log\/syslog",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "pip3 install requests",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "pip3 install requests",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "cat \/etc\/passwd",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "gzip file \/tmp\/file.txt",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "hostname",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "df -h \/home\/user\/test.txt",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "ps aux",
+  "response": "Package 'vim' is already installed."
+ },
+ {
+  "command": "journalctl -u sshd --no-pager",
+  "response": "100%[=================================] 1.2M  1.2MB\/s  in 1s"
+ },
+ {
+  "command": "du -sh \/var",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "virtualenv venv",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "id",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "chown user:user file",
+  "response": "Package 'vim' is already installed."
+ },
+ {
+  "command": "pwd",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "netstat -tuln \/var\/log\/syslog",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "docker ps -a .\/config.yaml",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "locate nginx",
+  "response": "ssh: connect to host localhost port 22: Connection refused"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 \/home\/user\/test.txt",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "id",
+  "response": "100%[=================================] 1.2M  1.2MB\/s  in 1s"
+ },
+ {
+  "command": "grep root \/etc\/passwd",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "make \/etc\/passwd",
+  "response": "ssh: connect to host localhost port 22: Connection refused"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 .\/config.yaml",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "ssh user@localhost \/etc\/passwd",
+  "response": "(no output)"
+ },
+ {
+  "command": "ssh user@localhost",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "pip3 install requests",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "locate nginx",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "apt update",
+  "response": "Permission denied\n"
+ },
+ {
+  "command": "apt update \/var\/log\/syslog",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "ssh user@localhost",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "rpm -qa \/etc\/passwd",
+  "response": "(no output)"
+ },
+ {
+  "command": "netstat -tuln",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "rpm -qa",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "docker ps -a \/var\/log\/syslog",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "chown user:user file",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "locate nginx",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "rpm -qa",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "python3 script.py",
+  "response": "100%[=================================] 1.2M  1.2MB\/s  in 1s"
+ },
+ {
+  "command": "whereis gcc",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/etc\/passwd",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "ps aux",
+  "response": "Permission denied\n"
+ },
+ {
+  "command": "hostname \/home\/user\/test.txt",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "gcc -v",
+  "response": "ssh: connect to host localhost port 22: Connection refused"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog \/tmp\/file.txt",
+  "response": "Package 'vim' is already installed."
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ \/etc\/passwd",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ls -la",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "ssh user@localhost \/tmp\/file.txt",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "grep root \/etc\/passwd",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "id",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "tar -xzf archive.tar.gz \/tmp\/file.txt",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "service apache2 restart \/tmp\/file.txt",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "apt update \/tmp\/file.txt",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "df -h",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "whoami",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "rpm -qa",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "virtualenv venv",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "systemctl status sshd .\/config.yaml",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "curl http:\/\/example.com",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "less \/var\/log\/auth.log",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "pip3 install requests \/etc\/passwd",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "locate nginx \/etc\/passwd",
+  "response": "Permission denied\n"
+ },
+ {
+  "command": "rpm -qa \/tmp\/file.txt",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "systemctl status sshd",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ \/var\/log\/syslog",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "whereis gcc",
+  "response": "(no output)"
+ },
+ {
+  "command": "which python3 \/var\/log\/syslog",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "umount \/mnt",
+  "response": "Package 'vim' is already installed."
+ },
+ {
+  "command": "passwd testuser \/etc\/passwd",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "df -h",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "pwd \/var\/log\/syslog",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "python3 script.py",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "systemctl status sshd \/var\/log\/syslog",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "ssh user@localhost",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "systemctl status sshd \/tmp\/file.txt",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "python3 script.py \/var\/log\/syslog",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "whoami .\/config.yaml",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "cat \/etc\/passwd",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "kubectl get pods \/tmp\/file.txt",
+  "response": "Permission denied\n"
+ },
+ {
+  "command": "service apache2 restart",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "ssh user@localhost .\/config.yaml",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "grep root \/etc\/passwd",
+  "response": "(no output)"
+ },
+ {
+  "command": "service apache2 restart \/var\/log\/syslog",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "locate nginx \/etc\/passwd",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "useradd testuser",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "locate nginx",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/home\/user\/test.txt",
+  "response": "ssh: connect to host localhost port 22: Connection refused"
+ },
+ {
+  "command": "kubectl get pods",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "dpkg -l",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "hostname",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "pip3 install requests",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "pip3 install requests \/var\/log\/syslog",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "top -bn1",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "whereis gcc",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "grep root \/etc\/passwd",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "make .\/config.yaml",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "rpm -qa",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "curl -I https:\/\/example.com",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "ps aux",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "apt update",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "apt-get install -y vim",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "curl -I https:\/\/example.com",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "netstat -tuln",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "chmod 644 file .\/config.yaml",
+  "response": "ssh: connect to host localhost port 22: Connection refused"
+ },
+ {
+  "command": "python3 script.py",
+  "response": "(no output)"
+ },
+ {
+  "command": "ssh user@localhost",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz",
+  "response": "ssh: connect to host localhost port 22: Connection refused"
+ },
+ {
+  "command": "ssh user@localhost",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "gcc -v .\/config.yaml",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "locate nginx",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "systemctl status sshd",
+  "response": "100%[=================================] 1.2M  1.2MB\/s  in 1s"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "chmod 644 file",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "hostname",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir \/home\/user\/test.txt",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "chmod 644 file",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "df -h",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "top -bn1",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "id",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "ls -la",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4",
+  "response": "(no output)"
+ },
+ {
+  "command": "service apache2 restart",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 \/var\/log\/syslog",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "grep root \/etc\/passwd",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "dpkg -l \/tmp\/file.txt",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "grep root \/etc\/passwd",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ip addr",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "id",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "systemctl status sshd \/var\/log\/syslog",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir \/tmp\/file.txt",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "gzip file",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "netstat -tuln",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "which python3",
+  "response": "Permission denied\n"
+ },
+ {
+  "command": "uname -a \/home\/user\/test.txt",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "which python3 .\/config.yaml",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "ip addr",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager \/tmp\/file.txt",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/",
+  "response": "Permission denied\n"
+ },
+ {
+  "command": "pwd",
+  "response": "100%[=================================] 1.2M  1.2MB\/s  in 1s"
+ },
+ {
+  "command": "umount \/mnt \/home\/user\/test.txt",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager",
+  "response": "Package 'vim' is already installed."
+ },
+ {
+  "command": "chmod 644 file",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "netstat -tuln",
+  "response": "100%[=================================] 1.2M  1.2MB\/s  in 1s"
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt \/var\/log\/syslog",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "curl -I https:\/\/example.com",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "ls -la",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "virtualenv venv",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "virtualenv venv",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "docker run hello-world",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "hostname",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "pip3 install requests",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "which python3",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "id",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir \/home\/user\/test.txt",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "umount \/mnt",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "whoami",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "python3 script.py",
+  "response": "Package 'vim' is already installed."
+ },
+ {
+  "command": "top -bn1",
+  "response": "100%[=================================] 1.2M  1.2MB\/s  in 1s"
+ },
+ {
+  "command": "yum install -y httpd",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "curl -I https:\/\/example.com \/home\/user\/test.txt",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "python3 script.py",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "pip3 install requests",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "gcc -v",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443",
+  "response": "100%[=================================] 1.2M  1.2MB\/s  in 1s"
+ },
+ {
+  "command": "whoami",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "gunzip file.gz",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "gunzip file.gz \/etc\/passwd",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "cat \/etc\/passwd",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 \/home\/user\/test.txt",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "apt update \/etc\/passwd",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "top -bn1",
+  "response": "100%[=================================] 1.2M  1.2MB\/s  in 1s"
+ },
+ {
+  "command": "locate nginx",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "useradd testuser",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "useradd testuser",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "less \/var\/log\/auth.log",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir",
+  "response": "Package 'vim' is already installed."
+ },
+ {
+  "command": "systemctl status sshd",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "openssl s_client -connect example.com:443",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "gunzip file.gz",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "gzip file \/var\/log\/syslog",
+  "response": "Package 'vim' is already installed."
+ },
+ {
+  "command": "ps aux",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "whoami",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "grep root \/etc\/passwd",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "cd \/tmp\/testdir",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "top -bn1",
+  "response": "Package 'vim' is already installed."
+ },
+ {
+  "command": "pwd",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "ifconfig -a",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "tar -xzf archive.tar.gz",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "ls -la \/etc\/passwd",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "dpkg -l \/etc\/passwd",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "locate nginx",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "ls -la",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "umount \/mnt \/etc\/passwd",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "cd \/tmp\/testdir \/home\/user\/test.txt",
+  "response": "ssh: connect to host localhost port 22: Connection refused"
+ },
+ {
+  "command": "ps aux",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "systemctl status sshd",
+  "response": "ssh: connect to host localhost port 22: Connection refused"
+ },
+ {
+  "command": "umount \/mnt .\/config.yaml",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "less \/var\/log\/auth.log .\/config.yaml",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "cd \/tmp\/testdir",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "passwd testuser",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "make",
+  "response": "(no output)"
+ },
+ {
+  "command": "whoami \/etc\/passwd",
+  "response": "(no output)"
+ },
+ {
+  "command": "top -bn1 .\/config.yaml",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "make .\/config.yaml",
+  "response": "ssh: connect to host localhost port 22: Connection refused"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "passwd testuser \/tmp\/file.txt",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "gcc -v",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "systemctl status sshd",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "useradd testuser",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "passwd testuser \/var\/log\/syslog",
+  "response": "100%[=================================] 1.2M  1.2MB\/s  in 1s"
+ },
+ {
+  "command": "df -h",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "pwd \/tmp\/file.txt",
+  "response": "(no output)"
+ },
+ {
+  "command": "passwd testuser \/var\/log\/syslog",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "rpm -qa .\/config.yaml",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "gzip file",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "gcc -v \/var\/log\/syslog",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "curl http:\/\/example.com",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "apt-get install -y vim \/home\/user\/test.txt",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 .\/config.yaml",
+  "response": "100%[=================================] 1.2M  1.2MB\/s  in 1s"
+ },
+ {
+  "command": "ps aux",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "ip addr",
+  "response": "docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+ },
+ {
+  "command": "virtualenv venv",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "which python3",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "cat \/etc\/passwd \/var\/log\/syslog",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "gzip file \/etc\/passwd",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "locate nginx",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "python3 script.py",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "whoami",
+  "response": "Package 'vim' is already installed."
+ },
+ {
+  "command": "chmod 644 file",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "du -sh \/var",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "virtualenv venv",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "whoami",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "du -sh \/var",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "which python3 \/home\/user\/test.txt",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "passwd testuser",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "useradd testuser .\/config.yaml",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "gzip file",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "which python3",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "yum install -y httpd",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "ip addr",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "cd \/tmp\/testdir \/var\/log\/syslog",
+  "response": "Package 'vim' is already installed."
+ },
+ {
+  "command": "virtualenv venv \/var\/log\/syslog",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt \/home\/user\/test.txt",
+  "response": "Created directory '\/tmp\/testdir'"
+ },
+ {
+  "command": "uname -a .\/config.yaml",
+  "response": "Unit sshd.service could not be found."
+ },
+ {
+  "command": "apt-get install -y vim",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "docker run hello-world",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "python3 script.py \/tmp\/file.txt",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "pwd",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "passwd testuser",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "useradd testuser \/home\/user\/test.txt",
+  "response": "total 12\ndrwxr-xr-x 2 root root 4096 Oct 20 14:21 .\ndrwxr-xr-x 3 root root 4096 Oct 20 14:18 ..\n-rw-r--r-- 1 root root 23 Oct 20 14:20 readme.txt"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt .\/config.yaml",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "curl -I https:\/\/example.com",
+  "response": "100%[=================================] 1.2M  1.2MB\/s  in 1s"
+ },
+ {
+  "command": "whoami",
+  "response": "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\n--- 8.8.8.8 ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss"
+ },
+ {
+  "command": "netstat -tuln",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "yum install -y httpd \/var\/log\/syslog",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "ip addr \/etc\/passwd",
+  "response": "(no output)"
+ },
+ {
+  "command": "apt-get install -y vim",
+  "response": "ssh: connect to host localhost port 22: Connection refused"
+ },
+ {
+  "command": "apt-get install -y vim \/var\/log\/syslog",
+  "response": "100%[=================================] 1.2M  1.2MB\/s  in 1s"
+ },
+ {
+  "command": "gcc -v",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "kubectl get pods \/tmp\/file.txt",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 .\/config.yaml",
+  "response": "Connecting to example.com...\nHTTP request sent, awaiting response... 200 OK\nSaving to: ‘file.txt’\n100%[==================================>] 2.5K --.-KB\/s in 0s"
+ },
+ {
+  "command": "pip3 install requests",
+  "response": "(no output)"
+ },
+ {
+  "command": "uname -a",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "apt update",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "pip3 install requests",
+  "response": "Output suppressed (no visible output)"
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt",
+  "response": "grep: \/etc\/passwd: Is a directory"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt",
+  "response": "python3: can't open file 'script.py': [Errno 2] No such file or directory"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt \/tmp\/file.txt",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "systemctl status sshd",
+  "response": "active (running) since Mon 2025-10-20 14:00:00; 1h 23min ago"
+ },
+ {
+  "command": "umount \/mnt .\/config.yaml",
+  "response": "(no output)"
+ },
+ {
+  "command": "curl http:\/\/example.com",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "cd \/tmp\/testdir",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "pwd",
+  "response": "(no output)"
+ },
+ {
+  "command": "less \/var\/log\/auth.log",
+  "response": "Warning: could not find domain"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "systemctl status sshd",
+  "response": "Error: No such image: hello-world"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 .\/config.yaml",
+  "response": "passwd: password updated successfully"
+ },
+ {
+  "command": "apt-get install -y vim \/tmp\/file.txt",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "id",
+  "response": "Filesystem      Size  Used Avail Use% Mounted on\n\/dev\/sda1        50G   20G   28G  42% \/"
+ },
+ {
+  "command": "make \/etc\/passwd",
+  "response": "root:x:0:0:root:\/root:\/bin\/bash\ndaemon:x:1:1:daemon:\/usr\/sbin:\/usr\/sbin\/nologin\nuser:x:1000:1000:user:\/home\/user:\/bin\/bash"
+ },
+ {
+  "command": "netstat -tuln",
+  "response": "useradd: user 'testuser' added."
+ },
+ {
+  "command": "yum install -y httpd",
+  "response": "Permission denied\n"
+ },
+ {
+  "command": "gunzip file.gz",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "grep root \/etc\/passwd | grep root",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "grep root \/etc\/passwd \/etc\/passwd | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "docker run hello-world && echo OK",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 var\/log.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "pip3 install requests && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "which python3 tmp\/conf.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "apt update | grep root",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "id var\/data.txt",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "rpm -qa \/tmp\/file.txt opt\/log.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "netstat -tuln .\/config.yaml 777",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/ssh user@localhost",
+  "response": "Process terminated"
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt \/var\/log\/syslog home\/data.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "top -bn1 | grep root",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "pwd \/tmp\/file.txt tmp\/log.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "systemctl status sshd .\/config.yaml && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "netstat -tuln .\/config.yaml 366",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "ip addr \/tmp\/file.txt -v",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "rpm -qa -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "pwd 250",
+  "response": "Permission denied"
+ },
+ {
+  "command": "cat \/etc\/passwd 78",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "du -sh \/var -v",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "\/usr\/bin\/scp file user@remote:\/tmp\/ \/etc\/passwd",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "virtualenv venv --help",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "locate nginx var\/log.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "systemctl status sshd tmp\/conf.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "id | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/home\/user\/test.txt home\/conf.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "chmod 644 file -v",
+  "response": "Permission denied"
+ },
+ {
+  "command": "chown user:user file && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/hostname \/tmp\/file.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 .\/config.yaml && echo OK",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "hostname -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager \/tmp\/file.txt -v",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "locate nginx home\/log.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "yum install -y httpd 23",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/uname -a \/home\/user\/test.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ | grep root",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 969",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/netstat -tuln",
+  "response": "Command not found"
+ },
+ {
+  "command": "systemctl status sshd 871",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "top -bn1 var\/conf.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 -v",
+  "response": "Command not found"
+ },
+ {
+  "command": "cd \/tmp\/testdir \/home\/user\/test.txt 353",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/useradd testuser",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "curl -I https:\/\/example.com | grep root",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 \/var\/log\/syslog home\/conf.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz 382",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ssh user@localhost -v",
+  "response": "Process terminated"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/home\/user\/test.txt | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "systemctl status sshd --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "apt-get install -y vim -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 .\/config.yaml -v",
+  "response": "Permission denied"
+ },
+ {
+  "command": "locate nginx \/var\/log\/syslog var\/log.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "less \/var\/log\/auth.log | grep root",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "less \/var\/log\/auth.log | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "systemctl status sshd 161",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "\/usr\/bin\/apt-get install -y vim \/etc\/passwd",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "rpm -qa .\/config.yaml home\/data.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "cd \/tmp\/testdir && echo OK",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/tar -xzf archive.tar.gz",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "curl -I https:\/\/example.com 814",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog \/tmp\/file.txt 381",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "ls -la && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "top -bn1 && echo OK",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "make \/home\/user\/test.txt var\/conf.txt",
+  "response": "Command not found"
+ },
+ {
+  "command": "grep root \/etc\/passwd && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 .\/config.yaml && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "cat \/etc\/passwd --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "cd \/tmp\/testdir 670",
+  "response": "Permission denied"
+ },
+ {
+  "command": "ssh user@localhost tmp\/log.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt && echo OK",
+  "response": "Permission denied"
+ },
+ {
+  "command": "passwd testuser \/etc\/passwd -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "apt update --help",
+  "response": "Command not found"
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt 96",
+  "response": "Process terminated"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "locate nginx | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "whoami .\/config.yaml tmp\/conf.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "\/usr\/bin\/tail -n 50 \/var\/log\/syslog \/etc\/passwd",
+  "response": "Permission denied"
+ },
+ {
+  "command": "id -v",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "du -sh \/var --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "locate nginx \/etc\/passwd home\/conf.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "ls -la 959",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/pip3 install requests",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "id \/tmp\/file.txt 947",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir 256",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/pwd",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "python3 script.py 405",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/less \/var\/log\/auth.log",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "apt update | grep root",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "systemctl status sshd \/var\/log\/syslog 174",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "cat \/etc\/passwd \/var\/log\/syslog --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/chmod 644 file .\/config.yaml",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/locate nginx",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "grep root \/etc\/passwd \/var\/log\/syslog --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "chown user:user file tmp\/conf.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "systemctl status sshd --help",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt 206",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "grep root \/etc\/passwd | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "whereis gcc -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "apt update \/tmp\/file.txt --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "pip3 install requests --help",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "top -bn1 -v",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "id --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt tmp\/conf.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/passwd testuser \/etc\/passwd",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "cat \/etc\/passwd --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/mount \/dev\/sdb1 \/mnt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "\/usr\/bin\/tail -n 50 \/var\/log\/syslog",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "du -sh \/var -v",
+  "response": "Command not found"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz --help",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "virtualenv venv -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "systemctl status sshd && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt home\/conf.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "netstat -tuln --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "du -sh \/var home\/data.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "curl http:\/\/example.com -v",
+  "response": "Permission denied"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 \/tmp\/file.txt && echo OK",
+  "response": "Permission denied"
+ },
+ {
+  "command": "curl -I https:\/\/example.com 463",
+  "response": "Process terminated"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "make \/var\/log\/syslog 854",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 \/home\/user\/test.txt -v",
+  "response": "Permission denied"
+ },
+ {
+  "command": "ps aux \/etc\/passwd tmp\/log.txt",
+  "response": "Command not found"
+ },
+ {
+  "command": "systemctl status sshd --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "whoami -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "virtualenv venv | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "ip addr \/tmp\/file.txt home\/conf.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "rpm -qa -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "locate nginx tmp\/log.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "top -bn1 --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "python3 script.py var\/data.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "useradd testuser \/var\/log\/syslog | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz -v",
+  "response": "Permission denied"
+ },
+ {
+  "command": "chown user:user file -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager \/home\/user\/test.txt opt\/conf.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "gzip file && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog home\/data.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "whoami | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "which python3 && echo OK",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/home\/user\/test.txt opt\/conf.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/ps aux",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "python3 script.py tmp\/log.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "df -h 790",
+  "response": "Permission denied"
+ },
+ {
+  "command": "netstat -tuln && echo OK",
+  "response": "Permission denied"
+ },
+ {
+  "command": "python3 script.py tmp\/data.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "uname -a \/home\/user\/test.txt && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "curl http:\/\/example.com -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "locate nginx \/etc\/passwd tmp\/log.txt",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "\/usr\/bin\/useradd testuser",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "systemctl status sshd 419",
+  "response": "Command not found"
+ },
+ {
+  "command": "apt update \/etc\/passwd && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager \/etc\/passwd && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "hostname \/etc\/passwd -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "kubectl get pods \/tmp\/file.txt && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "\/usr\/bin\/kubectl get pods",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ps aux \/etc\/passwd && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "cd \/tmp\/testdir \/var\/log\/syslog home\/conf.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/netstat -tuln",
+  "response": "Process terminated"
+ },
+ {
+  "command": "ip addr --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "top -bn1 -v",
+  "response": "Process terminated"
+ },
+ {
+  "command": "passwd testuser \/tmp\/file.txt var\/conf.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "umount \/mnt .\/config.yaml --help",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "which python3 \/home\/user\/test.txt var\/conf.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/systemctl status sshd",
+  "response": "Process terminated"
+ },
+ {
+  "command": "pwd 990",
+  "response": "Permission denied"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 && echo OK",
+  "response": "Permission denied"
+ },
+ {
+  "command": "locate nginx \/etc\/passwd && echo OK",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/locate nginx",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "ip addr \/tmp\/file.txt --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "pip3 install requests --help",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "make \/etc\/passwd | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/top -bn1",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/passwd testuser",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/useradd testuser .\/config.yaml",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "umount \/mnt opt\/log.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "less \/var\/log\/auth.log && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "virtualenv venv 451",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "id \/var\/log\/syslog --help",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "umount \/mnt .\/config.yaml --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/systemctl status sshd",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "chown user:user file --help",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "rpm -qa .\/config.yaml | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "which python3 \/var\/log\/syslog 839",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "systemctl status sshd .\/config.yaml 166",
+  "response": "Permission denied"
+ },
+ {
+  "command": "df -h --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/hostname \/etc\/passwd",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "make \/var\/log\/syslog | grep root",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "less \/var\/log\/auth.log --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "whoami .\/config.yaml 552",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "ps aux tmp\/data.txt",
+  "response": "Command not found"
+ },
+ {
+  "command": "ssh user@localhost 40",
+  "response": "Command not found"
+ },
+ {
+  "command": "ssh user@localhost tmp\/log.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "rpm -qa && echo OK",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 .\/config.yaml | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "useradd testuser -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "python3 script.py --help",
+  "response": "Command not found"
+ },
+ {
+  "command": "umount \/mnt .\/config.yaml && echo OK",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/virtualenv venv",
+  "response": "Process terminated"
+ },
+ {
+  "command": "top -bn1 var\/log.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "rpm -qa --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "rpm -qa .\/config.yaml -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 929",
+  "response": "Process terminated"
+ },
+ {
+  "command": "ip addr 624",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "\/usr\/bin\/docker ps -a .\/config.yaml",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "which python3 --help",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "\/usr\/bin\/id",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "which python3 && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz 6",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "which python3 \/home\/user\/test.txt 530",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager \/var\/log\/syslog && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "chown user:user file --help",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "\/usr\/bin\/netstat -tuln",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "useradd testuser \/var\/log\/syslog 793",
+  "response": "Command not found"
+ },
+ {
+  "command": "gzip file \/etc\/passwd | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/home\/user\/test.txt | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "systemctl status sshd | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/locate nginx",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "netstat -tuln && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "top -bn1 | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "ssh user@localhost 917",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "make \/etc\/passwd --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "yum install -y httpd | grep root",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ssh user@localhost \/etc\/passwd 966",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "pwd \/var\/log\/syslog && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "pwd var\/data.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "grep root \/etc\/passwd | grep root",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "\/usr\/bin\/ssh user@localhost",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/locate nginx",
+  "response": "Permission denied"
+ },
+ {
+  "command": "id -v",
+  "response": "Permission denied"
+ },
+ {
+  "command": "useradd testuser && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "\/usr\/bin\/ps aux",
+  "response": "Command not found"
+ },
+ {
+  "command": "dpkg -l \/etc\/passwd var\/log.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 .\/config.yaml -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz \/tmp\/file.txt 450",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "\/usr\/bin\/gunzip file.gz",
+  "response": "Process terminated"
+ },
+ {
+  "command": "kubectl get pods tmp\/log.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "gunzip file.gz -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ \/var\/log\/syslog --help",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "\/usr\/bin\/ssh user@localhost",
+  "response": "Process terminated"
+ },
+ {
+  "command": "\/usr\/bin\/virtualenv venv",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "less \/var\/log\/auth.log 514",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "\/usr\/bin\/locate nginx",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "yum install -y httpd .\/config.yaml 460",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "make \/var\/log\/syslog && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "less \/var\/log\/auth.log --help",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "whoami && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "apt-get install -y vim 968",
+  "response": "Permission denied"
+ },
+ {
+  "command": "cat \/etc\/passwd | grep root",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ifconfig -a | grep root",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "locate nginx | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "apt update \/home\/user\/test.txt opt\/log.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "chown user:user file 913",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "locate nginx tmp\/conf.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "\/usr\/bin\/python3 script.py",
+  "response": "Permission denied"
+ },
+ {
+  "command": "gcc -v --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 \/home\/user\/test.txt | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "ps aux && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt 13",
+  "response": "Process terminated"
+ },
+ {
+  "command": "\/usr\/bin\/virtualenv venv",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "ls -la 668",
+  "response": "Process terminated"
+ },
+ {
+  "command": "whoami -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "virtualenv venv \/var\/log\/syslog -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "curl -I https:\/\/example.com && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "umount \/mnt \/etc\/passwd -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "ssh user@localhost -v",
+  "response": "Command not found"
+ },
+ {
+  "command": "less \/var\/log\/auth.log 680",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "passwd testuser && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "less \/var\/log\/auth.log && echo OK",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ 651",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt tmp\/data.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/rpm -qa",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "netstat -tuln var\/log.txt",
+  "response": "Command not found"
+ },
+ {
+  "command": "\/usr\/bin\/pwd",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "systemctl status sshd \/var\/log\/syslog && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "\/usr\/bin\/systemctl status sshd",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "grep root \/etc\/passwd --help",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "systemctl status sshd \/var\/log\/syslog -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/home\/user\/test.txt | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "\/usr\/bin\/ssh user@localhost",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "rpm -qa \/etc\/passwd && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "\/usr\/bin\/journalctl -u sshd --no-pager",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "chown user:user file 120",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "locate nginx 751",
+  "response": "Command not found"
+ },
+ {
+  "command": "df -h && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "hostname -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt \/tmp\/file.txt | grep root",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "locate nginx \/etc\/passwd && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "id 303",
+  "response": "Command not found"
+ },
+ {
+  "command": "less \/var\/log\/auth.log && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "ip addr | grep root",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "ssh user@localhost .\/config.yaml | grep root",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "du -sh \/var --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "locate nginx 752",
+  "response": "Permission denied"
+ },
+ {
+  "command": "which python3 | grep root",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "pwd --help",
+  "response": "Command not found"
+ },
+ {
+  "command": "ps aux -v",
+  "response": "Permission denied"
+ },
+ {
+  "command": "passwd testuser \/var\/log\/syslog --help",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "top -bn1 \/home\/user\/test.txt --help",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "gcc -v \/var\/log\/syslog --help",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "make --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "whoami 533",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "du -sh \/var | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "service apache2 restart 137",
+  "response": "Process terminated"
+ },
+ {
+  "command": "\/usr\/bin\/df -h",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager 696",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "virtualenv venv | grep root",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ls -la --help",
+  "response": "Process terminated"
+ },
+ {
+  "command": "systemctl status sshd \/var\/log\/syslog -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "whereis gcc && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "virtualenv venv 111",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "rpm -qa \/etc\/passwd var\/conf.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/passwd testuser",
+  "response": "Command not found"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir home\/conf.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "id \/var\/log\/syslog home\/log.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "grep root \/etc\/passwd && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "python3 script.py \/var\/log\/syslog home\/data.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/pwd",
+  "response": "Process terminated"
+ },
+ {
+  "command": "locate nginx 575",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "du -sh \/var | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "id \/tmp\/file.txt && echo OK",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "id 53",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "hostname | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "chmod 644 file -v",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "netstat -tuln .\/config.yaml home\/conf.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "hostname --help",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt \/tmp\/file.txt | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "python3 script.py home\/log.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "useradd testuser \/var\/log\/syslog | grep root",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "\/usr\/bin\/apt-get install -y vim \/home\/user\/test.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "\/usr\/bin\/cd \/tmp\/testdir \/home\/user\/test.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "kubectl get pods --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "pip3 install requests -v",
+  "response": "Command not found"
+ },
+ {
+  "command": "netstat -tuln | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "top -bn1 .\/config.yaml && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "\/usr\/bin\/netstat -tuln",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "\/usr\/bin\/mount \/dev\/sdb1 \/mnt \/var\/log\/syslog",
+  "response": "Command not found"
+ },
+ {
+  "command": "pwd | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "service apache2 restart \/tmp\/file.txt | grep root",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "chown user:user file 795",
+  "response": "Command not found"
+ },
+ {
+  "command": "which python3 tmp\/log.txt",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 \/home\/user\/test.txt var\/data.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "systemctl status sshd \/var\/log\/syslog 794",
+  "response": "Process terminated"
+ },
+ {
+  "command": "umount \/mnt \/home\/user\/test.txt --help",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "pip3 install requests --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "cat \/etc\/passwd --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "umount \/mnt 179",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "gcc -v var\/conf.txt",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "gcc -v | grep root",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "service apache2 restart \/var\/log\/syslog 892",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/which python3 \/etc\/passwd",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog \/etc\/passwd | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "less \/var\/log\/auth.log -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "yum install -y httpd .\/config.yaml var\/log.txt",
+  "response": "Command not found"
+ },
+ {
+  "command": "make .\/config.yaml --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager && echo OK",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 \/var\/log\/syslog --help",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "id .\/config.yaml 473",
+  "response": "Permission denied"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 | grep root",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir \/tmp\/file.txt home\/data.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt && echo OK",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/virtualenv venv",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz \/etc\/passwd home\/data.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/home\/user\/test.txt | grep root",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "gzip file | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "locate nginx home\/conf.txt",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "\/usr\/bin\/ls -la",
+  "response": "Process terminated"
+ },
+ {
+  "command": "which python3 .\/config.yaml tmp\/log.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "ps aux -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "make .\/config.yaml 873",
+  "response": "Command not found"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/home\/user\/test.txt && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog 991",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "whoami 923",
+  "response": "Process terminated"
+ },
+ {
+  "command": "curl -I https:\/\/example.com && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz \/tmp\/file.txt -v",
+  "response": "Command not found"
+ },
+ {
+  "command": "make \/home\/user\/test.txt -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/wget http:\/\/example.com\/file.txt \/home\/user\/test.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "id -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "ps aux && echo OK",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ && echo OK",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "systemctl status sshd | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "ls -la | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "chmod 644 file && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/var\/log\/syslog && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "ip addr var\/log.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "docker run hello-world && echo OK",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "\/usr\/bin\/chown user:user file \/etc\/passwd",
+  "response": "Permission denied"
+ },
+ {
+  "command": "whoami && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "systemctl status sshd -v",
+  "response": "Process terminated"
+ },
+ {
+  "command": "grep root \/etc\/passwd opt\/log.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "cat \/etc\/passwd -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "chown user:user file -v",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "python3 script.py -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "gcc -v \/var\/log\/syslog 880",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "cat \/etc\/passwd --help",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "df -h .\/config.yaml 38",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "\/usr\/bin\/which python3 .\/config.yaml",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "gcc -v --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "cd \/tmp\/testdir && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "gcc -v && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/id",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "less \/var\/log\/auth.log -v",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "du -sh \/var --help",
+  "response": "Command not found"
+ },
+ {
+  "command": "uname -a \/home\/user\/test.txt --help",
+  "response": "Process terminated"
+ },
+ {
+  "command": "apt update \/tmp\/file.txt 966",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "ifconfig -a 879",
+  "response": "Command not found"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 && echo OK",
+  "response": "Permission denied"
+ },
+ {
+  "command": "chmod 644 file | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/top -bn1",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "ssh user@localhost 67",
+  "response": "Process terminated"
+ },
+ {
+  "command": "umount \/mnt \/home\/user\/test.txt | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "make \/home\/user\/test.txt && echo OK",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "ls -la \/etc\/passwd && echo OK",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "useradd testuser | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz 979",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz && echo OK",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "virtualenv venv | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz 690",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "pip3 install requests home\/conf.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "ps aux \/etc\/passwd | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "du -sh \/var && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "systemctl status sshd 597",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "du -sh \/var opt\/data.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "pwd var\/conf.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir \/home\/user\/test.txt && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "which python3 \/var\/log\/syslog | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 \/var\/log\/syslog -v",
+  "response": "Permission denied"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 \/var\/log\/syslog -v",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "pwd home\/conf.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "gzip file \/etc\/passwd 336",
+  "response": "Command not found"
+ },
+ {
+  "command": "which python3 | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "docker ps -a \/var\/log\/syslog -v",
+  "response": "Process terminated"
+ },
+ {
+  "command": "kubectl get pods 14",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "yum install -y httpd --help",
+  "response": "Process terminated"
+ },
+ {
+  "command": "du -sh \/var home\/data.txt",
+  "response": "Command not found"
+ },
+ {
+  "command": "curl -I https:\/\/example.com -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/gzip file \/etc\/passwd",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "\/usr\/bin\/cd \/tmp\/testdir",
+  "response": "Permission denied"
+ },
+ {
+  "command": "curl -I https:\/\/example.com -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/hostname",
+  "response": "Permission denied"
+ },
+ {
+  "command": "useradd testuser \/var\/log\/syslog -v",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "curl -I https:\/\/example.com && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "which python3 home\/data.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "locate nginx opt\/conf.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 --help",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "chown user:user file -v",
+  "response": "Permission denied"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/var\/log\/syslog -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 --help",
+  "response": "Command not found"
+ },
+ {
+  "command": "ifconfig -a home\/conf.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir \/etc\/passwd && echo OK",
+  "response": "Permission denied"
+ },
+ {
+  "command": "gcc -v opt\/conf.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/locate nginx \/etc\/passwd",
+  "response": "Process terminated"
+ },
+ {
+  "command": "\/usr\/bin\/gcc -v",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "id -v",
+  "response": "Permission denied"
+ },
+ {
+  "command": "pwd -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "grep root \/etc\/passwd --help",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "systemctl status sshd -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "dpkg -l --help",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "ls -la --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "python3 script.py --help",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "pip3 install requests 571",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "systemctl status sshd home\/log.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "cd \/tmp\/testdir | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "\/usr\/bin\/chmod 644 file",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "\/usr\/bin\/gunzip file.gz",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "apt-get install -y vim | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "make home\/data.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "python3 script.py \/tmp\/file.txt -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "whereis gcc -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "gunzip file.gz --help",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "\/usr\/bin\/du -sh \/var",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/ip addr",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/var\/log\/syslog -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "top -bn1 407",
+  "response": "Permission denied"
+ },
+ {
+  "command": "systemctl status sshd \/etc\/passwd | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "locate nginx var\/data.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ \/var\/log\/syslog | grep root",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog && echo OK",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "ls -la --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "pip3 install requests --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "cat \/etc\/passwd --help",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "whoami opt\/conf.txt",
+  "response": "Command not found"
+ },
+ {
+  "command": "less \/var\/log\/auth.log && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "virtualenv venv --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "pip3 install requests | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "hostname var\/conf.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "cd \/tmp\/testdir \/home\/user\/test.txt 716",
+  "response": "Process terminated"
+ },
+ {
+  "command": "apt-get install -y vim --help",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "virtualenv venv -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "\/usr\/bin\/id",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "grep root \/etc\/passwd \/home\/user\/test.txt home\/data.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/top -bn1",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "locate nginx 94",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "du -sh \/var .\/config.yaml var\/conf.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "systemctl status sshd \/var\/log\/syslog -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "cd \/tmp\/testdir \/home\/user\/test.txt tmp\/log.txt",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ssh user@localhost .\/config.yaml | grep root",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "ip addr var\/conf.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "docker ps -a .\/config.yaml --help",
+  "response": "Command not found"
+ },
+ {
+  "command": "whoami .\/config.yaml | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 .\/config.yaml home\/log.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt \/var\/log\/syslog && echo OK",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "netstat -tuln 649",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "grep root \/etc\/passwd --help",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "curl http:\/\/example.com var\/conf.txt",
+  "response": "Command not found"
+ },
+ {
+  "command": "du -sh \/var | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog tmp\/data.txt",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "apt update \/tmp\/file.txt | grep root",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "grep root \/etc\/passwd \/home\/user\/test.txt && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog \/tmp\/file.txt 988",
+  "response": "Process terminated"
+ },
+ {
+  "command": "which python3 | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/tail -n 50 \/var\/log\/syslog",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/hostname",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir \/tmp\/file.txt -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager \/home\/user\/test.txt 879",
+  "response": "Permission denied"
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt .\/config.yaml | grep root",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "systemctl status sshd --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog \/etc\/passwd 362",
+  "response": "Command not found"
+ },
+ {
+  "command": "ps aux var\/data.txt",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 --help",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "useradd testuser home\/log.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/id \/etc\/passwd",
+  "response": "Process terminated"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "netstat -tuln -v",
+  "response": "Permission denied"
+ },
+ {
+  "command": "virtualenv venv 900",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "curl http:\/\/example.com && echo OK",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz \/tmp\/file.txt && echo OK",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "netstat -tuln | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "umount \/mnt .\/config.yaml 510",
+  "response": "Command not found"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ \/var\/log\/syslog && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "gunzip file.gz -v",
+  "response": "Permission denied"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 \/home\/user\/test.txt --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "virtualenv venv -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir && echo OK",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "locate nginx \/etc\/passwd 889",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "systemctl status sshd tmp\/conf.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "cd \/tmp\/testdir \/home\/user\/test.txt var\/data.txt",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ip addr 941",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "dpkg -l \/tmp\/file.txt var\/data.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir 541",
+  "response": "Permission denied"
+ },
+ {
+  "command": "hostname \/tmp\/file.txt 850",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ home\/data.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "yum install -y httpd --help",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/gcc -v \/var\/log\/syslog",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "pwd && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "du -sh \/var | grep root",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "locate nginx \/var\/log\/syslog -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "make \/var\/log\/syslog 514",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/ls -la",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "ip addr \/etc\/passwd -v",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "pwd && echo OK",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "pip3 install requests home\/data.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt \/home\/user\/test.txt | grep root",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "less \/var\/log\/auth.log .\/config.yaml 950",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/apt-get install -y vim \/tmp\/file.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "locate nginx | grep root",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "systemctl status sshd && echo OK",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "cd \/tmp\/testdir \/home\/user\/test.txt home\/log.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "\/usr\/bin\/gzip file \/tmp\/file.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "hostname \/etc\/passwd && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "systemctl status sshd \/tmp\/file.txt var\/log.txt",
+  "response": "Command not found"
+ },
+ {
+  "command": "ssh user@localhost .\/config.yaml | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "\/usr\/bin\/python3 script.py",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "locate nginx | grep root",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 462",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "systemctl status sshd \/var\/log\/syslog home\/data.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "make 309",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "grep root \/etc\/passwd -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "locate nginx --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "useradd testuser \/var\/log\/syslog --help",
+  "response": "Process terminated"
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt \/tmp\/file.txt && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "ps aux -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "top -bn1 567",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "pip3 install requests 767",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "python3 script.py --help",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "top -bn1 && echo OK",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 \/var\/log\/syslog tmp\/log.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 .\/config.yaml opt\/conf.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz var\/log.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "apt update --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir && echo OK",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "hostname \/tmp\/file.txt 158",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "ip addr && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "whoami home\/data.txt",
+  "response": "Command not found"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "apt update \/home\/user\/test.txt home\/conf.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "systemctl status sshd --help",
+  "response": "Command not found"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager \/etc\/passwd tmp\/data.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "rpm -qa --help",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "ip addr 680",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/id \/etc\/passwd",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "systemctl status sshd --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "curl http:\/\/example.com | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "make .\/config.yaml --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "grep root \/etc\/passwd -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "df -h | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "netstat -tuln | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "cd \/tmp\/testdir -v",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "virtualenv venv 890",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "systemctl status sshd \/etc\/passwd var\/data.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/locate nginx \/tmp\/file.txt",
+  "response": "Command not found"
+ },
+ {
+  "command": "\/usr\/bin\/hostname",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "chmod 644 file | grep root",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "du -sh \/var .\/config.yaml | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "hostname 647",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "ip addr \/etc\/passwd var\/log.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ls -la 769",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "\/usr\/bin\/python3 script.py",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "id \/var\/log\/syslog --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "grep root \/etc\/passwd \/home\/user\/test.txt -v",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "curl http:\/\/example.com | grep root",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "cd \/tmp\/testdir 495",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "grep root \/etc\/passwd 801",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog 673",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/scp file user@remote:\/tmp\/",
+  "response": "Process terminated"
+ },
+ {
+  "command": "rpm -qa 643",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager 516",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "\/usr\/bin\/ls -la",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "pip3 install requests \/var\/log\/syslog && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "id | grep root",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ls -la \/etc\/passwd 871",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "apt update 759",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "ip addr 48",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz \/tmp\/file.txt 403",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "ssh user@localhost .\/config.yaml -v",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "\/usr\/bin\/ls -la",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "netstat -tuln .\/config.yaml 798",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/locate nginx",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "ls -la | grep root",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "locate nginx --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "id | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz 53",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/top -bn1 \/home\/user\/test.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "virtualenv venv tmp\/data.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "ip addr \/tmp\/file.txt home\/log.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "\/usr\/bin\/less \/var\/log\/auth.log",
+  "response": "Permission denied"
+ },
+ {
+  "command": "useradd testuser \/var\/log\/syslog -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "pip3 install requests && echo OK",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "\/usr\/bin\/grep root \/etc\/passwd",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "make -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "python3 script.py \/var\/log\/syslog 815",
+  "response": "Process terminated"
+ },
+ {
+  "command": "locate nginx var\/data.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "id 345",
+  "response": "Command not found"
+ },
+ {
+  "command": "which python3 && echo OK",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "\/usr\/bin\/docker run hello-world",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt \/tmp\/file.txt | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "whoami \/etc\/passwd --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/ssh user@localhost .\/config.yaml",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/top -bn1 \/home\/user\/test.txt",
+  "response": "Command not found"
+ },
+ {
+  "command": "\/usr\/bin\/tail -n 50 \/var\/log\/syslog",
+  "response": "Command not found"
+ },
+ {
+  "command": "umount \/mnt \/home\/user\/test.txt | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "gzip file 766",
+  "response": "Command not found"
+ },
+ {
+  "command": "\/usr\/bin\/ping -c 3 8.8.8.8 \/etc\/passwd",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "locate nginx --help",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "ps aux -v",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "gunzip file.gz -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "du -sh \/var 138",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "yum install -y httpd \/var\/log\/syslog -v",
+  "response": "Command not found"
+ },
+ {
+  "command": "docker run hello-world home\/conf.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "rpm -qa | grep root",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ tmp\/log.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "pip3 install requests \/var\/log\/syslog home\/data.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "apt-get install -y vim opt\/log.txt",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "which python3 -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "df -h -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/ssh user@localhost",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "chown user:user file tmp\/conf.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "id --help",
+  "response": "Command not found"
+ },
+ {
+  "command": "gcc -v \/var\/log\/syslog | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "pip3 install requests \/etc\/passwd -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "yum install -y httpd \/var\/log\/syslog var\/conf.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "ps aux home\/data.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "systemctl status sshd -v",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "which python3 \/etc\/passwd tmp\/data.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "whoami .\/config.yaml 944",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager 921",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "\/usr\/bin\/dpkg -l",
+  "response": "Permission denied"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt 766",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "ssh user@localhost .\/config.yaml home\/conf.txt",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt .\/config.yaml 158",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 .\/config.yaml | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "docker ps -a .\/config.yaml -v",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "systemctl status sshd && echo OK",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "gzip file --help",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "ls -la home\/log.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "chmod 644 file opt\/log.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "service apache2 restart \/tmp\/file.txt tmp\/log.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt -v",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 --help",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "make \/etc\/passwd -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ps aux 306",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "rpm -qa \/etc\/passwd home\/log.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "curl -I https:\/\/example.com && echo OK",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "make | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/ls -la",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "whereis gcc -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "\/usr\/bin\/uname -a",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz 132",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt && echo OK",
+  "response": "Permission denied"
+ },
+ {
+  "command": "rpm -qa \/etc\/passwd | grep root",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "passwd testuser \/etc\/passwd --help",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "cat \/etc\/passwd 854",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "curl http:\/\/example.com -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "virtualenv venv && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 \/var\/log\/syslog home\/log.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager \/etc\/passwd 714",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "make \/home\/user\/test.txt -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 tmp\/log.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "ip addr \/tmp\/file.txt -v",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/top -bn1",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt .\/config.yaml --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "id home\/conf.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog \/tmp\/file.txt | grep root",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "rpm -qa \/etc\/passwd --help",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "pip3 install requests | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "whereis gcc var\/conf.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt 219",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ssh user@localhost .\/config.yaml opt\/conf.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/whereis gcc",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "id \/tmp\/file.txt | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog | grep root",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "rpm -qa .\/config.yaml -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "virtualenv venv | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "ssh user@localhost 663",
+  "response": "Permission denied"
+ },
+ {
+  "command": "systemctl status sshd \/var\/log\/syslog -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt .\/config.yaml -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/grep root \/etc\/passwd",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 --help",
+  "response": "Process terminated"
+ },
+ {
+  "command": "systemctl status sshd -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "grep root \/etc\/passwd \/home\/user\/test.txt | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "id 742",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "pwd var\/data.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "gunzip file.gz \/etc\/passwd -v",
+  "response": "Process terminated"
+ },
+ {
+  "command": "\/usr\/bin\/service apache2 restart",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir home\/log.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "id && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "ip addr && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "which python3 --help",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "docker run hello-world --help",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "useradd testuser 578",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "top -bn1 143",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "cat \/etc\/passwd \/home\/user\/test.txt -v",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "whoami -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "gcc -v -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "whoami && echo OK",
+  "response": "Permission denied"
+ },
+ {
+  "command": "apt update -v",
+  "response": "Process terminated"
+ },
+ {
+  "command": "chmod 644 file -v",
+  "response": "Command not found"
+ },
+ {
+  "command": "which python3 \/var\/log\/syslog 746",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/gcc -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir \/home\/user\/test.txt && echo OK",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "netstat -tuln 183",
+  "response": "Process terminated"
+ },
+ {
+  "command": "hostname \/etc\/passwd && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "whereis gcc -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/ifconfig -a",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ps aux \/etc\/passwd 786",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "id \/tmp\/file.txt 558",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "dpkg -l \/etc\/passwd var\/conf.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "\/usr\/bin\/ssh user@localhost .\/config.yaml",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ --help",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "apt update | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "cd \/tmp\/testdir \/home\/user\/test.txt home\/data.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "ps aux --help",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "ip addr | grep root",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "cat \/etc\/passwd \/home\/user\/test.txt --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "systemctl status sshd -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/service apache2 restart",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "gzip file \/var\/log\/syslog var\/conf.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "curl -I https:\/\/example.com 664",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "systemctl status sshd | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "\/usr\/bin\/find \/ -name '*.conf' -maxdepth 4 .\/config.yaml",
+  "response": "Command not found"
+ },
+ {
+  "command": "\/usr\/bin\/grep root \/etc\/passwd",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "less \/var\/log\/auth.log | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/hostname",
+  "response": "Process terminated"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/home\/user\/test.txt && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "cat \/etc\/passwd && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "\/usr\/bin\/curl -I https:\/\/example.com",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/umount \/mnt .\/config.yaml",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "hostname | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/ps aux",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/which python3",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "pip3 install requests && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "gunzip file.gz 293",
+  "response": "Process terminated"
+ },
+ {
+  "command": "ip addr | grep root",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "ip addr | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "systemctl status sshd opt\/conf.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "apt update var\/conf.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "docker ps -a \/var\/log\/syslog --help",
+  "response": "Command not found"
+ },
+ {
+  "command": "chmod 644 file && echo OK",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "id \/etc\/passwd 395",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz && echo OK",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "systemctl status sshd home\/conf.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "hostname && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "whoami && echo OK",
+  "response": "Permission denied"
+ },
+ {
+  "command": "dpkg -l \/etc\/passwd && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "gunzip file.gz | grep root",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "pwd --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/ping -c 3 8.8.8.8 \/var\/log\/syslog",
+  "response": "Command not found"
+ },
+ {
+  "command": "\/usr\/bin\/rpm -qa \/etc\/passwd",
+  "response": "Process terminated"
+ },
+ {
+  "command": "kubectl get pods && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "grep root \/etc\/passwd --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/ping -c 3 8.8.8.8 \/home\/user\/test.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "apt-get install -y vim \/home\/user\/test.txt --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "gcc -v 60",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "passwd testuser -v",
+  "response": "Process terminated"
+ },
+ {
+  "command": "umount \/mnt \/home\/user\/test.txt home\/log.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "uname -a .\/config.yaml home\/conf.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "pwd -v",
+  "response": "Permission denied"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ && echo OK",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "pwd \/tmp\/file.txt -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "top -bn1 --help",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "docker run hello-world tmp\/log.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "python3 script.py && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 && echo OK",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "docker run hello-world opt\/data.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "virtualenv venv | grep root",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "pip3 install requests home\/data.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/tar -xzf archive.tar.gz \/etc\/passwd",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "which python3 \/home\/user\/test.txt home\/log.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "df -h .\/config.yaml && echo OK",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "chmod 644 file .\/config.yaml && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ 944",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "dpkg -l -v",
+  "response": "Command not found"
+ },
+ {
+  "command": "du -sh \/var 993",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "umount \/mnt | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "ip addr \/tmp\/file.txt -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "\/usr\/bin\/pip3 install requests",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/virtualenv venv \/var\/log\/syslog",
+  "response": "Command not found"
+ },
+ {
+  "command": "id \/etc\/passwd var\/conf.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "gzip file \/tmp\/file.txt && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "curl http:\/\/example.com --help",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "\/usr\/bin\/journalctl -u sshd --no-pager",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "docker run hello-world tmp\/log.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "cd \/tmp\/testdir home\/conf.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "id --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "gzip file \/etc\/passwd --help",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "apt update 577",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "top -bn1 | grep root",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "grep root \/etc\/passwd 264",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "apt update tmp\/data.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "passwd testuser var\/data.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "less \/var\/log\/auth.log 959",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/wget http:\/\/example.com\/file.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "gcc -v \/var\/log\/syslog 435",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "pip3 install requests 686",
+  "response": "Permission denied"
+ },
+ {
+  "command": "gunzip file.gz -v",
+  "response": "Process terminated"
+ },
+ {
+  "command": "useradd testuser -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "grep root \/etc\/passwd 889",
+  "response": "Permission denied"
+ },
+ {
+  "command": "whoami .\/config.yaml -v",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog \/etc\/passwd -v",
+  "response": "Process terminated"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt --help",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "\/usr\/bin\/curl -I https:\/\/example.com",
+  "response": "Command not found"
+ },
+ {
+  "command": "top -bn1 | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "id 654",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "systemctl status sshd && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "less \/var\/log\/auth.log .\/config.yaml 88",
+  "response": "Permission denied"
+ },
+ {
+  "command": "make .\/config.yaml && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "\/usr\/bin\/python3 script.py",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "chown user:user file \/etc\/passwd && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "whoami 477",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "python3 script.py && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "systemctl status sshd \/var\/log\/syslog && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "apt-get install -y vim --help",
+  "response": "Command not found"
+ },
+ {
+  "command": "useradd testuser \/var\/log\/syslog -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/python3 script.py",
+  "response": "Process terminated"
+ },
+ {
+  "command": "rpm -qa && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "useradd testuser var\/conf.txt",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/python3 script.py",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "uname -a .\/config.yaml tmp\/data.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "hostname \/etc\/passwd opt\/conf.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "uname -a --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/hostname \/home\/user\/test.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "locate nginx .\/config.yaml 789",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz tmp\/data.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog 283",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/apt-get install -y vim \/etc\/passwd",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "hostname 726",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "\/usr\/bin\/find \/ -name '*.conf' -maxdepth 4 .\/config.yaml",
+  "response": "Permission denied"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir \/tmp\/file.txt -v",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "virtualenv venv 37",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "useradd testuser && echo OK",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "uname -a -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "top -bn1 -v",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "ssh user@localhost .\/config.yaml 592",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ssh user@localhost \/tmp\/file.txt -v",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "top -bn1 \/home\/user\/test.txt -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "make .\/config.yaml | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "\/usr\/bin\/less \/var\/log\/auth.log",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "docker run hello-world && echo OK",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "docker ps -a .\/config.yaml tmp\/data.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "locate nginx | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog 112",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "whereis gcc | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "systemctl status sshd .\/config.yaml var\/conf.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "rpm -qa \/etc\/passwd opt\/conf.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/chmod 644 file \/var\/log\/syslog",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/virtualenv venv",
+  "response": "Permission denied"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz 647",
+  "response": "Command not found"
+ },
+ {
+  "command": "cd \/tmp\/testdir \/var\/log\/syslog && echo OK",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "gzip file 697",
+  "response": "Process terminated"
+ },
+ {
+  "command": "virtualenv venv && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "pip3 install requests && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz | grep root",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "chmod 644 file 654",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir \/home\/user\/test.txt -v",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/du -sh \/var",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "yum install -y httpd --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/virtualenv venv",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "make tmp\/log.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "less \/var\/log\/auth.log && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/hostname",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "useradd testuser | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/kubectl get pods \/tmp\/file.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "top -bn1 | grep root",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "df -h \/home\/user\/test.txt 555",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt \/var\/log\/syslog -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "\/usr\/bin\/python3 script.py",
+  "response": "Permission denied"
+ },
+ {
+  "command": "grep root \/etc\/passwd -v",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "ip addr \/tmp\/file.txt 308",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "\/usr\/bin\/locate nginx",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "curl http:\/\/example.com tmp\/conf.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "useradd testuser \/home\/user\/test.txt 437",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "yum install -y httpd 153",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "less \/var\/log\/auth.log .\/config.yaml && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir 738",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "\/usr\/bin\/tail -n 50 \/var\/log\/syslog \/tmp\/file.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "apt-get install -y vim --help",
+  "response": "Command not found"
+ },
+ {
+  "command": "cat \/etc\/passwd 285",
+  "response": "Permission denied"
+ },
+ {
+  "command": "dpkg -l \/tmp\/file.txt | grep root",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/ping -c 3 8.8.8.8",
+  "response": "Permission denied"
+ },
+ {
+  "command": "id .\/config.yaml 57",
+  "response": "Command not found"
+ },
+ {
+  "command": "ssh user@localhost | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "gcc -v --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "curl -I https:\/\/example.com \/home\/user\/test.txt home\/log.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "yum install -y httpd --help",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ \/var\/log\/syslog -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "ssh user@localhost .\/config.yaml && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "apt update \/etc\/passwd -v",
+  "response": "Process terminated"
+ },
+ {
+  "command": "kubectl get pods \/tmp\/file.txt && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "virtualenv venv | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "virtualenv venv -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "locate nginx -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "pwd \/tmp\/file.txt && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "ls -la --help",
+  "response": "Command not found"
+ },
+ {
+  "command": "service apache2 restart \/var\/log\/syslog && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "\/usr\/bin\/openssl s_client -connect example.com:443 .\/config.yaml",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "grep root \/etc\/passwd && echo OK",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ home\/data.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/id",
+  "response": "Process terminated"
+ },
+ {
+  "command": "pwd && echo OK",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "chmod 644 file \/var\/log\/syslog && echo OK",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/mkdir \/tmp\/testdir",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "less \/var\/log\/auth.log --help",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "\/usr\/bin\/pip3 install requests",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "rpm -qa .\/config.yaml -v",
+  "response": "Command not found"
+ },
+ {
+  "command": "pwd -v",
+  "response": "Process terminated"
+ },
+ {
+  "command": "apt update | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "gcc -v home\/conf.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "\/usr\/bin\/whoami",
+  "response": "Process terminated"
+ },
+ {
+  "command": "cd \/tmp\/testdir --help",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 \/var\/log\/syslog -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "top -bn1 && echo OK",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/ping -c 3 8.8.8.8 \/etc\/passwd",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "locate nginx | grep root",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir \/tmp\/file.txt --help",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz 712",
+  "response": "Process terminated"
+ },
+ {
+  "command": "useradd testuser && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 \/var\/log\/syslog opt\/log.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "passwd testuser \/var\/log\/syslog | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "hostname \/home\/user\/test.txt -v",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "ip addr | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "top -bn1 tmp\/data.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "useradd testuser | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "which python3 tmp\/data.txt",
+  "response": "Command not found"
+ },
+ {
+  "command": "id 660",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/home\/user\/test.txt --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/tail -n 50 \/var\/log\/syslog \/etc\/passwd",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "ssh user@localhost | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "du -sh \/var | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "locate nginx \/etc\/passwd -v",
+  "response": "Command not found"
+ },
+ {
+  "command": "cd \/tmp\/testdir \/home\/user\/test.txt && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "cd \/tmp\/testdir --help",
+  "response": "Process terminated"
+ },
+ {
+  "command": "\/usr\/bin\/useradd testuser",
+  "response": "Command not found"
+ },
+ {
+  "command": "service apache2 restart var\/data.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "which python3 \/var\/log\/syslog | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "useradd testuser && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "ip addr -v",
+  "response": "Permission denied"
+ },
+ {
+  "command": "rpm -qa --help",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "netstat -tuln && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "ip addr \/tmp\/file.txt -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "chmod 644 file 648",
+  "response": "Permission denied"
+ },
+ {
+  "command": "top -bn1 \/home\/user\/test.txt opt\/data.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "\/usr\/bin\/systemctl status sshd",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "make 328",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "apt-get install -y vim \/tmp\/file.txt 811",
+  "response": "Command not found"
+ },
+ {
+  "command": "whoami .\/config.yaml | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "pip3 install requests | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "netstat -tuln && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "chmod 644 file 755",
+  "response": "Command not found"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "netstat -tuln .\/config.yaml -v",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager && echo OK",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "whereis gcc | grep root",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "ssh user@localhost \/etc\/passwd -v",
+  "response": "Process terminated"
+ },
+ {
+  "command": "ps aux && echo OK",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/var\/log\/syslog && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "systemctl status sshd && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "rpm -qa opt\/conf.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "rpm -qa | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "yum install -y httpd .\/config.yaml 190",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "id && echo OK",
+  "response": "Permission denied"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 \/var\/log\/syslog -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "apt update opt\/log.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "id | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir \/etc\/passwd -v",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "du -sh \/var .\/config.yaml && echo OK",
+  "response": "Permission denied"
+ },
+ {
+  "command": "ssh user@localhost -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "netstat -tuln \/var\/log\/syslog --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "grep root \/etc\/passwd \/home\/user\/test.txt home\/log.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "hostname --help",
+  "response": "Command not found"
+ },
+ {
+  "command": "\/usr\/bin\/pip3 install requests \/etc\/passwd",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "pwd | grep root",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "which python3 --help",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "ip addr home\/conf.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "ip addr && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "netstat -tuln .\/config.yaml -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "ssh user@localhost .\/config.yaml opt\/data.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "chown user:user file --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "ifconfig -a | grep root",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog \/etc\/passwd var\/data.txt",
+  "response": "Command not found"
+ },
+ {
+  "command": "whoami --help",
+  "response": "Process terminated"
+ },
+ {
+  "command": "docker run hello-world | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "docker run hello-world | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "gunzip file.gz --help",
+  "response": "Process terminated"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 .\/config.yaml | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "locate nginx \/etc\/passwd 314",
+  "response": "Process terminated"
+ },
+ {
+  "command": "useradd testuser -v",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "locate nginx --help",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "yum install -y httpd \/var\/log\/syslog 167",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "systemctl status sshd --help",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "netstat -tuln | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/less \/var\/log\/auth.log",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "apt update --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "id \/etc\/passwd | grep root",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "less \/var\/log\/auth.log 510",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/mount \/dev\/sdb1 \/mnt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "dpkg -l 359",
+  "response": "Process terminated"
+ },
+ {
+  "command": "\/usr\/bin\/du -sh \/var",
+  "response": "Process terminated"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog \/etc\/passwd -v",
+  "response": "Process terminated"
+ },
+ {
+  "command": "top -bn1 home\/log.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "useradd testuser \/home\/user\/test.txt -v",
+  "response": "Permission denied"
+ },
+ {
+  "command": "useradd testuser -v",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "yum install -y httpd \/var\/log\/syslog --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "docker run hello-world | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "grep root \/etc\/passwd tmp\/conf.txt",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "\/usr\/bin\/ps aux",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 \/var\/log\/syslog | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "rpm -qa tmp\/data.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "pwd -v",
+  "response": "Process terminated"
+ },
+ {
+  "command": "grep root \/etc\/passwd var\/data.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "ls -la home\/log.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "systemctl status sshd \/var\/log\/syslog 752",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/ssh user@localhost",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "useradd testuser .\/config.yaml -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "du -sh \/var && echo OK",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/less \/var\/log\/auth.log",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager --help",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/systemctl status sshd",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 .\/config.yaml -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "cat \/etc\/passwd \/var\/log\/syslog var\/data.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "df -h .\/config.yaml --help",
+  "response": "Command not found"
+ },
+ {
+  "command": "grep root \/etc\/passwd --help",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "which python3 \/etc\/passwd --help",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir 410",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "id | grep root",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "top -bn1 .\/config.yaml | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "gunzip file.gz tmp\/data.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "less \/var\/log\/auth.log -v",
+  "response": "Permission denied"
+ },
+ {
+  "command": "top -bn1 && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir 425",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "id && echo OK",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "gzip file --help",
+  "response": "Process terminated"
+ },
+ {
+  "command": "ifconfig -a 497",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "umount \/mnt 290",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "chmod 644 file .\/config.yaml 274",
+  "response": "Process terminated"
+ },
+ {
+  "command": "pip3 install requests && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "apt-get install -y vim -v",
+  "response": "Command not found"
+ },
+ {
+  "command": "locate nginx .\/config.yaml --help",
+  "response": "Command not found"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ \/etc\/passwd && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "top -bn1 \/home\/user\/test.txt --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "curl http:\/\/example.com -v",
+  "response": "Command not found"
+ },
+ {
+  "command": "grep root \/etc\/passwd --help",
+  "response": "Command not found"
+ },
+ {
+  "command": "curl http:\/\/example.com | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt .\/config.yaml | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "gzip file --help",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "whoami --help",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "useradd testuser \/var\/log\/syslog && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "whoami .\/config.yaml home\/log.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 331",
+  "response": "Command not found"
+ },
+ {
+  "command": "gzip file | grep root",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "rpm -qa \/etc\/passwd | grep root",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "whoami \/etc\/passwd -v",
+  "response": "Command not found"
+ },
+ {
+  "command": "grep root \/etc\/passwd && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "netstat -tuln --help",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "python3 script.py | grep root",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "top -bn1 -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "netstat -tuln | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt .\/config.yaml -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "whereis gcc --help",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "rpm -qa | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "df -h && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "docker run hello-world 325",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "hostname \/etc\/passwd -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "hostname \/home\/user\/test.txt tmp\/data.txt",
+  "response": "Command not found"
+ },
+ {
+  "command": "\/usr\/bin\/find \/ -name '*.conf' -maxdepth 4 \/var\/log\/syslog",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "python3 script.py \/var\/log\/syslog 461",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "useradd testuser | grep root",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "\/usr\/bin\/apt update \/etc\/passwd",
+  "response": "Process terminated"
+ },
+ {
+  "command": "hostname | grep root",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "top -bn1 | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "passwd testuser tmp\/conf.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "du -sh \/var -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "dpkg -l \/tmp\/file.txt tmp\/conf.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "id -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "netstat -tuln | grep root",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 .\/config.yaml 780",
+  "response": "Process terminated"
+ },
+ {
+  "command": "du -sh \/var -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "pip3 install requests \/tmp\/file.txt 991",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager tmp\/log.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/chmod 644 file .\/config.yaml",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "systemctl status sshd home\/conf.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "whoami && echo OK",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "pwd tmp\/log.txt",
+  "response": "Command not found"
+ },
+ {
+  "command": "grep root \/etc\/passwd \/home\/user\/test.txt 862",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "netstat -tuln .\/config.yaml | grep root",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "whoami .\/config.yaml 486",
+  "response": "Permission denied"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ -v",
+  "response": "Process terminated"
+ },
+ {
+  "command": "find \/ -name '*.conf' -maxdepth 4 --help",
+  "response": "Permission denied"
+ },
+ {
+  "command": "kubectl get pods \/tmp\/file.txt opt\/log.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "pip3 install requests -v",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "chmod 644 file | grep root",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "locate nginx && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "pip3 install requests \/etc\/passwd tmp\/log.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "whoami --help",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "useradd testuser 810",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "cd \/tmp\/testdir opt\/data.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 --help",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "service apache2 restart \/var\/log\/syslog | grep root",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "ls -la -v",
+  "response": "Command not found"
+ },
+ {
+  "command": "gzip file \/etc\/passwd -v",
+  "response": "Command not found"
+ },
+ {
+  "command": "netstat -tuln var\/conf.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "pip3 install requests --help",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "locate nginx \/var\/log\/syslog -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "\/usr\/bin\/gcc -v",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/top -bn1",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "ps aux 181",
+  "response": "Permission denied"
+ },
+ {
+  "command": "pwd --help",
+  "response": "Command not found"
+ },
+ {
+  "command": "\/usr\/bin\/pwd",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "useradd testuser && echo OK",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "ssh user@localhost \/tmp\/file.txt opt\/data.txt",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "apt-get install -y vim \/var\/log\/syslog | grep root",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "systemctl status sshd | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "ls -la \/etc\/passwd | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "netstat -tuln 904",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "pip3 install requests \/tmp\/file.txt -v",
+  "response": "Process terminated"
+ },
+ {
+  "command": "whoami && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "id .\/config.yaml home\/data.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "\/usr\/bin\/pwd \/tmp\/file.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/make .\/config.yaml",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "make && echo OK",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "pip3 install requests \/var\/log\/syslog | grep root",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/find \/ -name '*.conf' -maxdepth 4 .\/config.yaml",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "systemctl status sshd --help",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "mount \/dev\/sdb1 \/mnt && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "gzip file \/etc\/passwd 803",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "gzip file -v",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/cd \/tmp\/testdir \/home\/user\/test.txt",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ \/var\/log\/syslog var\/log.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 --help",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "locate nginx .\/config.yaml && echo OK",
+  "response": "Permission denied"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt \/var\/log\/syslog --help",
+  "response": "Process terminated"
+ },
+ {
+  "command": "id 350",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "apt-get install -y vim \/etc\/passwd -v",
+  "response": "Process terminated"
+ },
+ {
+  "command": "systemctl status sshd \/etc\/passwd opt\/data.txt",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "id 547",
+  "response": "Command not found"
+ },
+ {
+  "command": "curl -I https:\/\/example.com tmp\/log.txt",
+  "response": "Permission denied"
+ },
+ {
+  "command": "\/usr\/bin\/curl -I https:\/\/example.com \/home\/user\/test.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "id \/var\/log\/syslog -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ping -c 3 8.8.8.8 \/home\/user\/test.txt home\/conf.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "hostname && echo OK",
+  "response": "Permission denied"
+ },
+ {
+  "command": "whoami .\/config.yaml -v",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "ssh user@localhost 305",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "virtualenv venv | grep root",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "hostname \/etc\/passwd && echo OK",
+  "response": "Permission denied"
+ },
+ {
+  "command": "du -sh \/var -v",
+  "response": "Permission denied"
+ },
+ {
+  "command": "whereis gcc && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt opt\/conf.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 \/tmp\/file.txt 547",
+  "response": "Process terminated"
+ },
+ {
+  "command": "pwd 633",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ip addr \/tmp\/file.txt | grep root",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager 106",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "\/usr\/bin\/journalctl -u sshd --no-pager",
+  "response": "Process terminated"
+ },
+ {
+  "command": "\/usr\/bin\/mkdir \/tmp\/testdir \/home\/user\/test.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "whereis gcc | grep root",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "make .\/config.yaml && echo OK",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "pwd | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "cat \/etc\/passwd 303",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "docker run hello-world --help",
+  "response": "Command not found"
+ },
+ {
+  "command": "gunzip file.gz | grep root",
+  "response": "Process terminated"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 | grep root",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 opt\/log.txt",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "umount \/mnt \/home\/user\/test.txt && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/top -bn1 \/home\/user\/test.txt",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "\/usr\/bin\/passwd testuser",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "ip addr \/tmp\/file.txt && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "make \/home\/user\/test.txt opt\/data.txt",
+  "response": "Command not found"
+ },
+ {
+  "command": "make tmp\/data.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "python3 script.py | grep root",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "passwd testuser | grep root",
+  "response": "Permission denied"
+ },
+ {
+  "command": "top -bn1 && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "whoami -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz \/tmp\/file.txt | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "less \/var\/log\/auth.log tmp\/log.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager \/var\/log\/syslog opt\/conf.txt",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "whoami && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "ip addr home\/conf.txt",
+  "response": "Process terminated"
+ },
+ {
+  "command": "umount \/mnt && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "\/usr\/bin\/mkdir \/tmp\/testdir",
+  "response": "Unable to open file"
+ },
+ {
+  "command": "\/usr\/bin\/gcc -v",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "tail -n 50 \/var\/log\/syslog -v",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "mkdir \/tmp\/testdir -v",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "tar -xzf archive.tar.gz && echo OK",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "journalctl -u sshd --no-pager 441",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "passwd testuser var\/data.txt",
+  "response": "Syntax error near unexpected token"
+ },
+ {
+  "command": "\/usr\/bin\/id",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "\/usr\/bin\/locate nginx",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "\/usr\/bin\/openssl s_client -connect example.com:443",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "python3 script.py && echo OK",
+  "response": "Process terminated"
+ },
+ {
+  "command": "openssl s_client -connect example.com:443 && echo OK",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "\/usr\/bin\/scp file user@remote:\/tmp\/",
+  "response": "Permission denied"
+ },
+ {
+  "command": "python3 script.py | grep root",
+  "response": "Command not found"
+ },
+ {
+  "command": "virtualenv venv \/var\/log\/syslog 827",
+  "response": "Permission denied"
+ },
+ {
+  "command": "yum install -y httpd --help",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "apt-get install -y vim \/etc\/passwd && echo OK",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "curl http:\/\/example.com \/home\/user\/test.txt && echo OK",
+  "response": "Execution finished with status 0"
+ },
+ {
+  "command": "ps aux var\/data.txt",
+  "response": "Operation completed successfully"
+ },
+ {
+  "command": "systemctl status sshd && echo OK",
+  "response": "Command not found"
+ },
+ {
+  "command": "cd \/tmp\/testdir \/var\/log\/syslog -v",
+  "response": "Command not found"
+ },
+ {
+  "command": "\/usr\/bin\/chown user:user file",
+  "response": "No such file or directory"
+ },
+ {
+  "command": "scp file user@remote:\/tmp\/ 531",
+  "response": "Output suppressed"
+ },
+ {
+  "command": "wget http:\/\/example.com\/file.txt && echo OK",
+  "response": "Syntax error near unexpected token"
+ }
+]

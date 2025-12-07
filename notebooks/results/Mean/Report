@@ -1,0 +1,14 @@
+# Project Results
+
+## 1. Quantitative Analysis
+We performed 15 runs to compare the Few-Shot model against the Baseline.
+
+* **Baseline Mean Score:** 0.4251
+* **Few-Shot Mean Score:** 0.4326
+
+The Few-Shot model showed a consistent improvement of approximately 1.76%.
+
+## 2. Visualization
+The graph below demonstrates the stability of the Few-Shot model across the testing steps:
+
+![Comparison Graph](./results/comparison_plot.png)

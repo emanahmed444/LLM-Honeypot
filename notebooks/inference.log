@@ -1,0 +1,68 @@
+2025-11-24 16:10:48,963 [ERROR] DataFrame 'df' is missing or empty. Run data loading cells first.
+2025-11-24 16:12:10,821 [INFO] 🚀 Starting Robust Inference on 85 examples.
+2025-11-24 16:12:10,824 [INFO]    - Max Retries: 8
+2025-11-24 16:12:10,826 [INFO]    - Pacing: 5s
+2025-11-24 16:12:13,136 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:12:13,139 [INFO] Retrying request to /chat/completions in 0.488346 seconds
+2025-11-24 16:12:15,278 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:12:15,280 [INFO] Retrying request to /chat/completions in 0.876536 seconds
+2025-11-24 16:12:17,721 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:12:17,723 [WARNING] Row 0 [Few-Shot] - Rate Limit (429). Retrying in 10.96s... (Attempt 1/8)
+2025-11-24 16:12:30,391 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:12:30,394 [INFO] Retrying request to /chat/completions in 0.465579 seconds
+2025-11-24 16:12:32,444 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:12:32,447 [INFO] Retrying request to /chat/completions in 0.796403 seconds
+2025-11-24 16:12:34,837 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:12:34,839 [WARNING] Row 0 [Few-Shot] - Rate Limit (429). Retrying in 21.25s... (Attempt 2/8)
+2025-11-24 16:12:58,110 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:12:58,115 [INFO] Retrying request to /chat/completions in 0.458977 seconds
+2025-11-24 16:13:00,218 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:13:00,220 [INFO] Retrying request to /chat/completions in 0.936391 seconds
+2025-11-24 16:13:02,750 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:13:02,752 [WARNING] Row 0 [Few-Shot] - Rate Limit (429). Retrying in 43.56s... (Attempt 3/8)
+2025-11-24 16:13:48,126 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:13:48,127 [INFO] Retrying request to /chat/completions in 0.430939 seconds
+2025-11-24 16:13:50,226 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:13:50,228 [INFO] Retrying request to /chat/completions in 0.979890 seconds
+2025-11-24 16:13:52,799 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:13:52,802 [WARNING] Row 0 [Few-Shot] - Rate Limit (429). Retrying in 82.10s... (Attempt 4/8)
+2025-11-24 16:15:16,656 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:15:16,661 [INFO] Retrying request to /chat/completions in 0.419024 seconds
+2025-11-24 16:15:18,669 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:15:18,672 [INFO] Retrying request to /chat/completions in 0.890045 seconds
+2025-11-24 16:15:21,169 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:15:21,174 [WARNING] Row 0 [Few-Shot] - Rate Limit (429). Retrying in 160.93s... (Attempt 5/8)
+2025-11-24 16:18:03,893 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:18:03,897 [INFO] Retrying request to /chat/completions in 0.393076 seconds
+2025-11-24 16:18:05,879 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:18:05,883 [INFO] Retrying request to /chat/completions in 0.760342 seconds
+2025-11-24 16:18:08,213 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:18:08,218 [WARNING] Row 0 [Few-Shot] - Rate Limit (429). Retrying in 316.49s... (Attempt 6/8)
+2025-11-24 16:23:26,524 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:23:26,528 [INFO] Retrying request to /chat/completions in 0.383505 seconds
+2025-11-24 16:23:28,584 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:23:28,588 [INFO] Retrying request to /chat/completions in 0.844385 seconds
+2025-11-24 16:23:31,011 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:23:31,014 [WARNING] Row 0 [Few-Shot] - Rate Limit (429). Retrying in 315.97s... (Attempt 7/8)
+2025-11-24 16:27:43,940 [ERROR] DataFrame 'df' is missing or empty. Run data loading cells first.
+2025-11-24 16:29:16,823 [INFO] 🚀 Starting Adaptive Inference on 88 examples.
+2025-11-24 16:29:16,824 [INFO]    - Max Retries: 20
+2025-11-24 16:29:16,826 [INFO]    - Initial Pacing: 20s
+2025-11-24 16:29:19,099 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:29:19,104 [INFO] Retrying request to /chat/completions in 0.452511 seconds
+2025-11-24 16:29:21,163 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:29:21,166 [INFO] Retrying request to /chat/completions in 0.771963 seconds
+2025-11-24 16:29:23,527 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:29:23,531 [WARNING] Row 0 [Few-Shot] - Rate Limit (429). Global Pacing increased to 30s. Retrying in 32.80s... (Attempt 1/20)
+2025-11-24 16:29:58,175 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:29:58,180 [INFO] Retrying request to /chat/completions in 0.469680 seconds
+2025-11-24 16:30:00,339 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:30:00,342 [INFO] Retrying request to /chat/completions in 0.969909 seconds
+2025-11-24 16:30:02,908 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:30:02,911 [WARNING] Row 0 [Few-Shot] - Rate Limit (429). Global Pacing increased to 40s. Retrying in 63.01s... (Attempt 2/20)
+2025-11-24 16:31:07,652 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:31:07,655 [INFO] Retrying request to /chat/completions in 0.435382 seconds
+2025-11-24 16:31:09,682 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:31:09,685 [INFO] Retrying request to /chat/completions in 0.912612 seconds
+2025-11-24 16:31:12,170 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-24 16:31:12,172 [WARNING] Row 0 [Few-Shot] - Rate Limit (429). Global Pacing increased to 50s. Retrying in 129.72s... (Attempt 3/20)
